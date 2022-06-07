@@ -6,7 +6,7 @@ export default function useNews() {
 	const newsService = new NewsService()
 	const newsAux = []
 	const [news, setNews] = useState([])
-	const [loading, setloading] = useState(true)
+	const [loading, setLoading] = useState(true)
 
 	useEffect(() => {
 		newsService.getAll().then(response => {
@@ -18,7 +18,7 @@ export default function useNews() {
 				newsAux.push(item)
 			})
 			setNews(newsAux)
-			setloading(false)
+			setLoading(false)
 		})
 	}, [])
 

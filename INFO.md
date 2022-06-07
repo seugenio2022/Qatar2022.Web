@@ -1,13 +1,20 @@
 ![image](https://user-images.githubusercontent.com/90891726/170180108-19cec801-e76c-427b-a3c3-fce7f86573f4.png)
 
-<b>PROYECTO QATAR 2022</b> - App prode mundial e info deportiva
+# PROYECTO QATAR 2022 
+## App prode mundial e info deportiva
+<br>
 
--consumo de Apis de noticias <br>
--Juego interactivo
+## Funcionalidades
+* ### Page Home
+	* Contador para comenzar el mundial.
+	* Seccion Noticias (News).
+		
+	* Sección Fotos.
+* ### Juego interactivo
 
-RECURSOS UTILIZADOS HASTA EL MOMENTO
+## Recursos utilizados hasta el momento
 
-*Material UI<br>
-*Auth Firebase<br>
-*Context<br>
-*BrowserRouter<br>
+* Material UI
+* Auth Firebase
+* Context
+* BrowserRouter
