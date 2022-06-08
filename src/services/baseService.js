@@ -19,11 +19,6 @@ export default class BaseService {
 		}
 	}
 
-	getById = (id) => {
-		const docRef = doc(db, this.collectionName, id);
-		return getDoc(docRef)
-	}
-
 	add = (doc) => {
 		return addDoc(this.collectionDoc, doc);
 	}

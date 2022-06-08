@@ -7,10 +7,10 @@
 ## Funcionalidades
 * ### Page Home
 	* Contador para comenzar el mundial.
-	* Seccion Noticias (News).
-		
+	* Seccion Noticias (News). 	
 	* Sección Fotos.
 * ### Juego interactivo
+* ### Login y registro
 
 ## Recursos utilizados hasta el momento
 
@@ -18,3 +18,5 @@
 * Auth Firebase
 * Context
 * BrowserRouter
+
+## Arquitectura
